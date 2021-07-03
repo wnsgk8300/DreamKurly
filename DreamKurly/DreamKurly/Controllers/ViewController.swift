@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .red
+        setUI()
     }
     
     func configureTableView() {
@@ -24,10 +25,8 @@ class ViewController: UIViewController {
         recommendationTableView.dataSource = self
         recommendationTableView.delegate = self
 
-        recommendationTableView.register(RecommendProductListCell.self,
-                                         forCellReuseIdentifier: RecommendProductListCell.identifier)
-        recommendationTableView.register(RecommendReviewsProductCell.self,
-                                         forCellReuseIdentifier: RecommendReviewsProductCell.identifier)
+        recommendationTableView.register(RecommendTableViewCell.self,
+                                         forCellReuseIdentifier: RecommendTableViewCell.identifier)
     }
 }
 
@@ -36,12 +35,29 @@ extension ViewController: UITableViewDelegate {
 }
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: RecommendTableViewCell.identifier, for: indexPath) as! RecommendTableViewCell
+        return cell
     }
     
     
+}
+
+extension ViewController {
+    func setUI() {
+        setBasic()
+        setLayout()
+    }
+    func setBasic() {
+        
+    }
+    func setLayout() {
+        view.addSubview(recommendationTableView)
+        recommendationTableView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
+    }
 }
