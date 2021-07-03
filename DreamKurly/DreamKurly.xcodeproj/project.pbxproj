@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CDCF1A6268EF082001A0D6A /* ReviewsProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF1A2268EF082001A0D6A /* ReviewsProductCell.swift */; };
+		3CDCF1A7268EF082001A0D6A /* RecommendReviewsProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF1A3268EF082001A0D6A /* RecommendReviewsProductCell.swift */; };
+		3CDCF1A8268EF082001A0D6A /* RecommendMoreButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF1A4268EF082001A0D6A /* RecommendMoreButtonCell.swift */; };
+		3CDCF1A9268EF082001A0D6A /* RecommendProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF1A5268EF082001A0D6A /* RecommendProductListCell.swift */; };
+		3CDCF1AB268EF088001A0D6A /* RecommendationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF1AA268EF088001A0D6A /* RecommendationVC.swift */; };
 		3CFF478F2686BA33000B15BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF478E2686BA33000B15BA /* AppDelegate.swift */; };
 		3CFF47912686BA33000B15BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF47902686BA33000B15BA /* SceneDelegate.swift */; };
 		3CFF47932686BA33000B15BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF47922686BA33000B15BA /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CDCF1A2268EF082001A0D6A /* ReviewsProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewsProductCell.swift; path = "../../../../martkurly-ios/martkurly/martkurly/Recommend/View/ReviewsProductCell.swift"; sourceTree = "<group>"; };
+		3CDCF1A3268EF082001A0D6A /* RecommendReviewsProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendReviewsProductCell.swift; path = "../../../../martkurly-ios/martkurly/martkurly/Recommend/View/RecommendReviewsProductCell.swift"; sourceTree = "<group>"; };
+		3CDCF1A4268EF082001A0D6A /* RecommendMoreButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendMoreButtonCell.swift; path = "../../../../martkurly-ios/martkurly/martkurly/Recommend/View/RecommendMoreButtonCell.swift"; sourceTree = "<group>"; };
+		3CDCF1A5268EF082001A0D6A /* RecommendProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendProductListCell.swift; path = "../../../../martkurly-ios/martkurly/martkurly/Recommend/View/RecommendProductListCell.swift"; sourceTree = "<group>"; };
+		3CDCF1AA268EF088001A0D6A /* RecommendationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecommendationVC.swift; path = "../../../../martkurly-ios/martkurly/martkurly/Recommend/Controller/RecommendationVC.swift"; sourceTree = "<group>"; };
 		3CFF478B2686BA33000B15BA /* DreamKurly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamKurly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFF478E2686BA33000B15BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFF47902686BA33000B15BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +83,7 @@
 		3CFF47A2268C5A71000B15BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCF1AA268EF088001A0D6A /* RecommendationVC.swift */,
 				3CFF47922686BA33000B15BA /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -81,6 +92,10 @@
 		3CFF47A3268C5A7C000B15BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCF1A4268EF082001A0D6A /* RecommendMoreButtonCell.swift */,
+				3CDCF1A5268EF082001A0D6A /* RecommendProductListCell.swift */,
+				3CDCF1A3268EF082001A0D6A /* RecommendReviewsProductCell.swift */,
+				3CDCF1A2268EF082001A0D6A /* ReviewsProductCell.swift */,
 				3CFF47A5268C5ABF000B15BA /* RecommendTableViewCell.swift */,
 			);
 			path = Views;
@@ -168,10 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDCF1A9268EF082001A0D6A /* RecommendProductListCell.swift in Sources */,
+				3CDCF1A7268EF082001A0D6A /* RecommendReviewsProductCell.swift in Sources */,
+				3CDCF1A6268EF082001A0D6A /* ReviewsProductCell.swift in Sources */,
 				3CFF47A6268C5ABF000B15BA /* RecommendTableViewCell.swift in Sources */,
+				3CDCF1A8268EF082001A0D6A /* RecommendMoreButtonCell.swift in Sources */,
 				3CFF47932686BA33000B15BA /* ViewController.swift in Sources */,
 				3CFF478F2686BA33000B15BA /* AppDelegate.swift in Sources */,
 				3CFF47912686BA33000B15BA /* SceneDelegate.swift in Sources */,
+				3CDCF1AB268EF088001A0D6A /* RecommendationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
