@@ -1,16 +1,15 @@
 //
-//  RecommendTableViewCell.swift
+//  MyKurlyTableViewCell.swift
 //  DreamKurly
 //
-//  Created by JEON JUNHA on 2021/06/30.
+//  Created by JEON JUNHA on 2021/07/04.
 //
 
-import SnapKit
 import UIKit
 
-class RecommendTableViewCell: UITableViewCell {
+class MyKurlyTableViewCell: UITableViewCell {
     
-    static let identifier = "RecommendTableViewCell"
+    static let identifier = "MyKurlyTableViewCell"
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -21,8 +20,7 @@ class RecommendTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-extension RecommendTableViewCell
-{
+extension MyKurlyTableViewCell {
     
     final private func setUI() {
         setBasic()
