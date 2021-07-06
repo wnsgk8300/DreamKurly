@@ -10,7 +10,10 @@
 		3C1865F82690591700A33160 /* Recommend1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1865F72690591700A33160 /* Recommend1CollectionViewCell.swift */; };
 		3C1865FF26916AAF00A33160 /* MyKurlyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1865FE26916AAF00A33160 /* MyKurlyVC.swift */; };
 		3C18660126917BD600A33160 /* MyKurlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18660026917BD600A33160 /* MyKurlyTableViewCell.swift */; };
-		3C18660326917E4000A33160 /* MyKurlyVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18660226917E4000A33160 /* MyKurlyVC2.swift */; };
+		3C186605269183B300A33160 /* MyKurlyTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C186604269183B300A33160 /* MyKurlyTopView.swift */; };
+		3C186609269188FB00A33160 /* AssetsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C186608269188FB00A33160 /* AssetsColor.swift */; };
+		3C18660B26918EFA00A33160 /* MyKurlyLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18660A26918EFA00A33160 /* MyKurlyLoginVC.swift */; };
+		3C857BD72692C1050031C26B /* MyKurlyLongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C857BD62692C1050031C26B /* MyKurlyLongButton.swift */; };
 		3CFF478F2686BA33000B15BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF478E2686BA33000B15BA /* AppDelegate.swift */; };
 		3CFF47912686BA33000B15BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF47902686BA33000B15BA /* SceneDelegate.swift */; };
 		3CFF47932686BA33000B15BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF47922686BA33000B15BA /* ViewController.swift */; };
@@ -24,14 +27,18 @@
 		3C1865F72690591700A33160 /* Recommend1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommend1CollectionViewCell.swift; sourceTree = "<group>"; };
 		3C1865FE26916AAF00A33160 /* MyKurlyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKurlyVC.swift; sourceTree = "<group>"; };
 		3C18660026917BD600A33160 /* MyKurlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKurlyTableViewCell.swift; sourceTree = "<group>"; };
-		3C18660226917E4000A33160 /* MyKurlyVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyKurlyVC2.swift; path = "../../../../../martkurly-ios/martkurly/martkurly/MyKurly/Controller/MyKurlyVC2.swift"; sourceTree = "<group>"; };
+		3C186604269183B300A33160 /* MyKurlyTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKurlyTopView.swift; sourceTree = "<group>"; };
+		3C186608269188FB00A33160 /* AssetsColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsColor.swift; path = ../../../Minhee/MarketKulry/MarketKulry/MarketKulry/Views/AssetsColor.swift; sourceTree = "<group>"; };
+		3C18660A26918EFA00A33160 /* MyKurlyLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKurlyLoginVC.swift; sourceTree = "<group>"; };
+		3C857BD62692C1050031C26B /* MyKurlyLongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKurlyLongButton.swift; sourceTree = "<group>"; };
+		3C8D5EF62691AE4400319A66 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Study/DreamKurly/DreamKurly/DreamKurly/Info.plist; sourceTree = "<group>"; };
+		3C8D5EF82691B19700319A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		3CFF478B2686BA33000B15BA /* DreamKurly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamKurly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFF478E2686BA33000B15BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CFF47902686BA33000B15BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CFF47922686BA33000B15BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CFF47972686BA34000B15BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CFF479A2686BA34000B15BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3CFF479C2686BA34000B15BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CFF47A5268C5ABF000B15BA /* RecommendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3C1865FE26916AAF00A33160 /* MyKurlyVC.swift */,
-				3C18660226917E4000A33160 /* MyKurlyVC2.swift */,
+				3C18660A26918EFA00A33160 /* MyKurlyLoginVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -80,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				3C18660026917BD600A33160 /* MyKurlyTableViewCell.swift */,
+				3C186604269183B300A33160 /* MyKurlyTopView.swift */,
+				3C857BD62692C1050031C26B /* MyKurlyLongButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,9 +100,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3C18660C2691A5B300A33160 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF478E2686BA33000B15BA /* AppDelegate.swift */,
+				3CFF47902686BA33000B15BA /* SceneDelegate.swift */,
+				3CFF47972686BA34000B15BA /* Assets.xcassets */,
+				3CFF47992686BA34000B15BA /* LaunchScreen.storyboard */,
+				3C8D5EF82691B19700319A66 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
 		3CFF47822686BA33000B15BA = {
 			isa = PBXGroup;
 			children = (
+				3C8D5EF62691AE4400319A66 /* Info.plist */,
 				3CFF478D2686BA33000B15BA /* DreamKurly */,
 				3CFF478C2686BA33000B15BA /* Products */,
 			);
@@ -110,13 +132,10 @@
 		3CFF478D2686BA33000B15BA /* DreamKurly */ = {
 			isa = PBXGroup;
 			children = (
+				3C186608269188FB00A33160 /* AssetsColor.swift */,
 				3C1865F926916A5D00A33160 /* Recommend */,
 				3C1865FA26916A6B00A33160 /* MyKurly */,
-				3CFF478E2686BA33000B15BA /* AppDelegate.swift */,
-				3CFF47902686BA33000B15BA /* SceneDelegate.swift */,
-				3CFF47972686BA34000B15BA /* Assets.xcassets */,
-				3CFF47992686BA34000B15BA /* LaunchScreen.storyboard */,
-				3CFF479C2686BA34000B15BA /* Info.plist */,
+				3C18660C2691A5B300A33160 /* Supports */,
 			);
 			path = DreamKurly;
 			sourceTree = "<group>";
@@ -220,13 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C857BD72692C1050031C26B /* MyKurlyLongButton.swift in Sources */,
 				3C18660126917BD600A33160 /* MyKurlyTableViewCell.swift in Sources */,
 				3C1865F82690591700A33160 /* Recommend1CollectionViewCell.swift in Sources */,
+				3C18660B26918EFA00A33160 /* MyKurlyLoginVC.swift in Sources */,
 				3CFF47A6268C5ABF000B15BA /* RecommendTableViewCell.swift in Sources */,
+				3C186609269188FB00A33160 /* AssetsColor.swift in Sources */,
 				3CFF47932686BA33000B15BA /* ViewController.swift in Sources */,
 				3C1865FF26916AAF00A33160 /* MyKurlyVC.swift in Sources */,
-				3C18660326917E4000A33160 /* MyKurlyVC2.swift in Sources */,
 				3CFF478F2686BA33000B15BA /* AppDelegate.swift in Sources */,
+				3C186605269183B300A33160 /* MyKurlyTopView.swift in Sources */,
 				3CFF47912686BA33000B15BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +390,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5M4ZXWCX6;
-				INFOPLIST_FILE = DreamKurly/Info.plist;
+				INFOPLIST_FILE = DreamKurly/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5M4ZXWCX6;
-				INFOPLIST_FILE = DreamKurly/Info.plist;
+				INFOPLIST_FILE = DreamKurly/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

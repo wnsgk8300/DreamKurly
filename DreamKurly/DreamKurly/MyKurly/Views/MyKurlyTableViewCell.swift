@@ -10,6 +10,7 @@ import UIKit
 class MyKurlyTableViewCell: UITableViewCell {
     
     static let identifier = "MyKurlyTableViewCell"
+    let menuLabel = UILabel()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -30,6 +31,10 @@ extension MyKurlyTableViewCell {
         
     }
     final private func setLayout() {
-        
+        contentView.addSubview(menuLabel)
+        menuLabel.snp.makeConstraints {
+            $0.leading.equalToSuperview().offset(12)
+            $0.centerY.equalToSuperview()
+        }
     }
 }
